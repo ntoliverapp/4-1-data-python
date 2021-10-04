@@ -31,5 +31,15 @@ def sum(list):
 print(sum(invoice))
 
 
-cupcake_invoices.close()
+#cupcake_invoices.close()
+
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3, 4], [4, 7, 9, 12])
+
+plt.ylabel('y numbers')
+plt.xlabel('x numbers')
+
+plt.show()
+
 
